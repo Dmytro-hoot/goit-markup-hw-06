@@ -76,6 +76,8 @@ a:not(.logo):focus {
   letter-spacing: 0.02em;
 
   color: #212121;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-list-link:hover,
@@ -93,6 +95,9 @@ a:not(.logo):focus {
   letter-spacing: 0.02em;
 
   color: #757575;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header .container {
@@ -225,7 +230,9 @@ a:not(.logo):focus {
   height: 44px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-right-tittle {
@@ -246,9 +253,9 @@ a:not(.logo):focus {
   fill: #fff;
 }
 
-.social-list-link-footer:hover .social-list-icon-footer,
-.social-list-link-footer:focus .social-list-icon-footer {
-  fill: currentColor;
+.social-list-link-footer:hover,
+.social-list-link-footer:focus {
+  background: #2196f3;
 }
 
 /*  END FOOTER */
@@ -280,6 +287,9 @@ a:not(.logo):focus {
 
   padding: 6px 22px;
   margin-bottom: 50px;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-portfolio-btn:hover,
@@ -321,6 +331,9 @@ a:not(.logo):focus {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   width: 370px;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-tittle {
@@ -558,6 +571,9 @@ a:not(.logo):focus {
   height: 44px;
   background-color: #ffffff;
   border-radius: 50%;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-item:not(:last-child) {
@@ -592,8 +608,8 @@ a:not(.logo):focus {
 
   color: #212121;
 
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .people-desc {
@@ -608,6 +624,8 @@ a:not(.logo):focus {
   letter-spacing: 0.03em;
 
   color: #757575;
+
+  margin-bottom: 16px;
 }
 
 /* End Our team */
@@ -638,6 +656,9 @@ a:not(.logo):focus {
   box-sizing: border-box;
   border-radius: 4px;
   color: #afb1b8;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo1-svg {
