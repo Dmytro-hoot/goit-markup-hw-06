@@ -96,6 +96,9 @@ a:not(.logo):focus {
 
   color: #757575;
 
+  display: flex;
+  align-items: center;
+
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -126,6 +129,43 @@ a:not(.logo):focus {
 
 .nav-list-item:not(:last-child) {
   margin-right: 50px;
+}
+
+.nav-list-link {
+  position: relative;
+}
+
+.active {
+  color: #2196f3;
+}
+
+.nav-list-link.active::after {
+  position: absolute;
+  bottom: -42px;
+  content: "";
+  display: block;
+
+  background: currentColor;
+  border-radius: 2px;
+  height: 4px;
+  width: 100%;
+}
+
+.nav-list-link::after {
+  position: absolute;
+  bottom: -42px;
+  content: "";
+  display: none;
+
+  background: currentColor;
+  border-radius: 2px;
+  height: 4px;
+  width: 100%;
+}
+
+.nav-list-link:hover:after,
+.nav-list-link:focus:after {
+  display: block;
 }
 
 .contact-list {
