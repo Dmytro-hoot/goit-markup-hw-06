@@ -395,6 +395,45 @@ a:not(.logo):focus {
   margin-bottom: 4px;
 }
 
+.portfolio-img-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-img-desc {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(33, 150, 243, 0.9);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.556;
+  /* or 156% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+  padding: 24px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  left: 0;
+  top: 0;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  transform: translateY(100%);
+}
+
+.portfolio-img-links:hover .portfolio-img-desc {
+  transform: translateY(0);
+}
+
 .project-mini-desc {
   font-family: Roboto;
   font-style: normal;
