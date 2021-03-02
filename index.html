@@ -392,36 +392,45 @@
             <div role="group" class="form-group-modal">
                 <h2 class="modal-tittle">Оставьте свои данные, мы вам перезвоним</h2>
                 <form action="" class="form-modal">
-                    <label class="modal-input-label" for="name">Имя</label>
-                    <div class="modal-area-box">
-                        <input class="modal-input-area" name="name" type="name" id="name">
+                    <label class="modal-input-label">
+                        <span class="modal-input-name">Имя</span>
+                        <input class="modal-input-area" name="name" type="name" >
                         <svg class="icon">
                             <use href="./images/sprite.svg#icon-people"></use>
                         </svg>
-                    </div>
-                    <label class="modal-input-label" for="phone">Телефон</label>
-                    <div class="modal-area-box">
-                        <input class="modal-input-area" name="phone" type="tel" id="phone">
+                    </label>
+                    
+                    <label class="modal-input-label" >
+                        <span class="modal-input-name">Телефон</span>
+                        <input class="modal-input-area" name="phone" type="tel" >
                         <svg class="icon">
                             <use href="./images/sprite.svg#icon-trubka"></use>
                         </svg>
-                    </div>
-                    <label class="modal-input-label" for="mail">Почта</label>
-                    <div class="modal-area-box">
-                        <input class="modal-input-area" name="mail" type="email" id="mail">
+                    </label>
+ 
+                    <label class="modal-input-label" >
+                        <span class="modal-input-name">Почта</span>
+                        <input class="modal-input-area" name="mail" type="email" >
                         <svg class="icon">
                             <use href="./images/sprite.svg#icon-mail"></use>
                         </svg>
-                    </div>
-                    <label class="modal-input-label " for="comment">Комментарий</label>
-                    <textarea class="modal-textarea" name="comment" id="comment" placeholder="Введите текст"></textarea>
-
-                   <div class="conf-box">
-                    <input class="conf-chekbox" type="checkbox" name="conf" id="conf" >
-                    <label  for="conf">Соглашаюсь с рассылкой и принимаю 
+                    </label>
+  
+                    <label class="modal-input-label " >
+                        <span class="modal-input-name">Комментарий</span>                   
+                        <textarea class="modal-textarea" name="comment" placeholder="Введите текст"></textarea>
+                    </label>
+                   
+                    <label class="conf-box">
+                        
+                    <input class="conf-checkbox" value="conf" type="checkbox" name="conf" >
+                    <svg class="icon-check">
+                        <use href="./images/sprite.svg#icon-icon-check"></use>
+                    </svg>
+                    Соглашаюсь с рассылкой и принимаю 
                        <a  href="#">Условия договора</a> 
                     </label>
-                    </div>
+                   
 
                     <button class="modal-send-btn" type="submit">Отправить</button>
                     
